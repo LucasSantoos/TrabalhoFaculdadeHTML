@@ -3,8 +3,52 @@ margin: 0; }
 
 .cabecalho {
     width: 100%;
-    height: 150px;
-    background-color: rgb(180, 5, 5);
+    height: 160px;
+    background-color: rgb(180, 5, 5); 
+}
+
+.center {
+    text-align: center;
+}
+
+.cabecalho-menu {
+	width: 100%;
+	height: 100px;
+	background-color: #EDEDED;
+}
+
+.cabecalho span {
+	position: relative;
+	top: 18px;
+	color: white;
+	font-size: 45pt;
+	text-shadow: 4px 4px black;
+	font-family: 'Bangers', cursive;
+}
+
+#menu ul {
+    padding:0px;
+    margin:32px 0 0 0;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+#menu ul li { display: inline; } 
+
+#menu ul li a {
+    padding: 20px 10px;
+    display: inline-block;
+	 
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
 }
 
 .rodape {
