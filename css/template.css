@@ -54,10 +54,36 @@ margin: 0; }
 .rodape {
     width: 100%;
     background-color: rgb(32, 32, 32);
-    height: 150px;
+    height: 200px;
 }
 
 .container {
     width: 75%;
     margin: 0 auto;
+}
+
+.rodape-descricao {
+	padding-top: 18px;
+}
+
+
+.rodape-descricao h4 {
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-weight: 100;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	font-size: 20pt;
+}
+
+.rodape-descricao h3 {
+	font-size: 30pt;
+	font-weight: 100;
+	color: white;
+	text-shadow: 4px 4px black;
+	font-family: 'Bangers', cursive;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
 }

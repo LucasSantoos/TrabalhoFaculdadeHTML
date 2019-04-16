@@ -20,7 +20,7 @@ tr:nth-child(even) {
 table{
     border-collapse: collapse;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 20px; auto;
 }
 
 .titulo h1, h2 {
