@@ -1,0 +1,74 @@
+.titulo h1, h2 {
+    width: 100%;
+}
+
+.titulo h1 {
+    text-align: center;
+}
+
+.titulo h2 {
+    text-align: right;
+    font-size: 10pt;
+    font-weight: 300;
+}
+
+.formulario {
+
+    color: red;
+}
+
+input[type=text], [type=email] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=tel] {
+  width: 39.8%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  text-align: left !important; 
+}
+
+input[type=radio] {
+  width: 39.8%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  
+}
+
+input[type=time] {
+  width: 39.8%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+ 
+.divRadio input[type=radio]{
+    display:inline-block;
+    height:20px;
+    padding:0 0 0 25px;
+    margin:0 10px 0 0;
+}
+ 
+.divRadio input[type=checkbox]{
+    background-position:0 -60px; /* Muda a posição do background só no checkbox */
+}
+ 
+.divRadio input[type=radio]:checked{
+    background-position:0 -30px;
+}
+ 
+.divRadio input[type=checkbox]:checked{
+    background-position:0 -90px;
+}
