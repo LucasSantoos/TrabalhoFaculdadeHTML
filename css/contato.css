@@ -13,62 +13,59 @@
 }
 
 .formulario {
-
-    color: red;
+    text-align: center;
 }
 
-input[type=text], [type=email] {
+.campoTxt, .campoAssunto, .campoTime {
   width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
 }
 
-input[type=tel] {
+.campoTel {
   width: 39.8%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
 }
 
-input[type=checkbox] {
-  width: 20%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  text-align: left !important; 
+.divCheckbox, .divRadio {
+  width: 110px;
+  margin-left: 10%; 
+  text-align: left;
+  padding: 10px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
 }
 
-input[type=radio] {
-  width: 39.8%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  
+.campoMensagem, textarea{
+  margin-top: 10px;
+  width: 79%;
 }
 
-input[type=time] {
-  width: 39.8%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
+.btnEnviar {
+  width: 80%;
+  padding: 15px;
+  margin: 10px 0 10px 0;
+  border-radius: 10px;
 
 
+
+  background-color: rgb(86, 153, 89);
+  border: none;
+  color: white;
  
-.divRadio input[type=radio]{
-    display:inline-block;
-    height:20px;
-    padding:0 0 0 25px;
-    margin:0 10px 0 0;
+  text-decoration: none;
+
+  font-size: 16pt;
 }
- 
-.divRadio input[type=checkbox]{
-    background-position:0 -60px; /* Muda a posição do background só no checkbox */
-}
- 
-.divRadio input[type=radio]:checked{
-    background-position:0 -30px;
-}
- 
-.divRadio input[type=checkbox]:checked{
-    background-position:0 -90px;
+
+h5 {
+  color: rgb(68, 68, 68);
+  font-weight: 500;
+  font-size: 12pt;
+  margin: 5px 0 5px 0;
+  text-align: left;
+  margin-left: 10%;
 }
