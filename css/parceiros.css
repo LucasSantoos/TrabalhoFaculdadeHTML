@@ -6,9 +6,14 @@
     overflow: hidden;
 }
 
-.foto img{
+.fotoLeft img{
     width: 40%;
     float: left;
+}
+
+.fotoRight img{
+    width: 40%;
+    float: right;
 }
 
 .titulo, .titulo h2 {
