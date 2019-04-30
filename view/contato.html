@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Nilcinho Car - Financiamento</title>
+    <title>Nilcinho Car - Contato</title>
     <link rel="stylesheet" href="../css/contato.css">
     <link rel="stylesheet" href="../css/template.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
     <nav class="cabecalho" id="menu">
         <div class="container">
             <div class="center">
@@ -31,60 +30,50 @@
                 <li><a href="contato.html">Contato</a></li>
             </div>
         </ul>
-
-
     </nav>
 
-    <div class="container">
-
+    <div class="containerCampos">
         <div class="titulo">
-            <h1>Contato</h1>
+            <h1 class="titulo">Contato</h1>
         </div>
-
-        <div class="formulario">    
-            <form class="">
+        <div class="formulario">
+            <form method="post" action="mailto:contato@meusite.com.br" enctype="text/plain">
                 <input class="campoTxt" type="text" name="nome" placeholder="Nome" required>
                 <input class="campoTxt" type="email" name="email" placeholder="E-mail" required>
                 <input class="campoTxt" type="text" name="empresa" placeholder="Empresa" required>
                 <input class="campoTel" type="tel" name="telefone" placeholder="Telefone" required>
                 <input class="campoTel" type="tel" name="celular" placeholder="Celular" required>
+                <input class="campoTime" type="time" name="bdaytime">
                 <input class="campoTxt" type="text" name="assunto" placeholder="Assunto" required>
-
+                <h5>Forma de contato:</h5>
                 <div class="divCheckbox">
-                    <input type="checkbox" name="formaEmail" value="formaEmail"> E-mail<br>
-                    <input type="checkbox" name="formaTelefone" value="formaTelefone"> Telefone<br>
+                    <input class="campoCheckbox" type="checkbox" name="formaEmail" value="formaEmail"> E-mail<br>
+                    <input class="campoCheckbox" type="checkbox" name="formaTelefone" value="formaTelefone">
+                    Telefone<br>
                 </div>
-                
-                <div class="divRadio"> 
-                    <input type="radio" name="sexo" value="masculino"> Masculino<br>
-                    <input type="radio" name="sexo" value="feminino"> Feminino<br>
+                <h5>Sexo:</h5>
+                <div class="divRadio">
+                    <input class="campoRadio" type="radio" name="sexo" value="masculino"> Masculino<br>
+                    <input class="campoRadio" type="radio" name="sexo" value="feminino"> Feminino<br>
                 </div>
-
-                <input type="time" name="bdaytime">             
-
-                <textarea rows="4" cols="50">Olá</textarea>
-
-
-                <input type="submit" name="" value="Enviar">
+                <textarea class="campoMsg" rows="6" cols="100" placeholder="Mensagem"></textarea>
+                <input class="btnEnviar" type="submit" name="btn" value="Enviar">
             </form>
         </div>
     </div>
 
-
     <footer class="rodape">
         <div class="container">
-
             <div class="rodape-descricao center">
                 <h3>Nilcinho car</h3>
                 <h4>Telefone (48) 99999-8888</h4>
                 <h4>contato@meusite.com.br</h4>
                 <h4>Av. Centenário, nº 100 - Cricíuma</h4>
-                <h4>developed by <><span style="color: red">lucas santos</span><</>/></h4>
+                <h4>developed by <><span style="color: red">lucas santos</span>
+                        < /></h4>
             </div>
-
         </div>
     </footer>
-
 </body>
 
 </html>

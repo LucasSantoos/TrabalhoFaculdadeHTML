@@ -1,33 +1,35 @@
-.card {
-    background-color: rgb(212, 212, 212);
-    width: 80%;
-    margin: 10px auto;
-    padding: 10px;
+div.imagem-loja {
+    background-image: url("../images/loja.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    width: 100%;
+    margin: 0 auto;
+    height: 700px;
 }
 
-.foto img{
-    width: 40%;
-    float: left;
-}
-
-.titulo, .titulo h2 {
+h2.titulo-sobre {
+    top: 250px;
+    position: relative;
     text-align: center;
-    font-size: 18pt;
-    font-weight: 500;
-    margin: 15px 0;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: rgb(255, 255, 255);
+    font-size: 14pt;
+    padding: 30px;
+    font-size: 25pt;
 }
 
-.descricao, .descricao p{
+p.texto-sobre {
+    top: 250px;
     text-align: justify;
-    font-size: 10pt;
-    font-weight: 400;
-    padding: 0 10px;
-    margin: 0 0 15px 0;
-
+    background-color: rgba(0, 0, 0, 0.63);
+    color: rgb(255, 255, 255);
+    font-size: 17pt;
+    padding: 0 30px 30px 30px;
+    position: relative;
+    font-weight: 100;
 }
 
-.card-body {
-    display: inline-block;
-
+div.box {
+    margin: 0 auto;
     width: 60%;
 }

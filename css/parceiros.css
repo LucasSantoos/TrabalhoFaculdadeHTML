@@ -3,11 +3,18 @@
     width: 80%;
     margin: 10px auto;
     padding: 10px;
+    overflow: hidden;
+    box-shadow: rgb(51, 51, 51) 2px 2px 5px;
 }
 
-.foto img{
+.fotoLeft img{
     width: 40%;
     float: left;
+}
+
+.fotoRight img{
+    width: 40%;
+    float: right;
 }
 
 .titulo, .titulo h2 {
